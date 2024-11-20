@@ -45,7 +45,7 @@ const ProductCard = ({ item }) => {
               to={`/product/${item.id}/category/${item.category.id}`}
               className="btn bg-color custom-bg-text"
             >
-              Add to Cart
+              Add to Cart~
             </Link>
 
             <p className="text-color">
