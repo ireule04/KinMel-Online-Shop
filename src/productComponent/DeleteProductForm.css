@@ -1,0 +1,84 @@
+/* DeleteProductForm.css */
+
+.delete-product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color, #f0e68c); /* Use background consistent with project */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-product-form h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #3a3a3a; /* Consistent text color */
+  }
+  
+  .custom-select {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+    color: #3a3a3a !important; /* Ensures text remains visible */
+    background-color: white !important; /* Sets background to white */
+    border: 1px solid #ffd700; /* Optional: matches .border-color in main CSS */
+    border-radius: 5px;
+  }
+  
+  .custom-select option {
+    color: #3a3a3a; /* Makes dropdown option text visible */
+    background-color: white; /* Ensures dropdown has a visible background */
+  }
+  
+  .delete-button {
+    padding: 10px 20px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .delete-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  .custom-select {
+    color: black !important;
+    -webkit-text-fill-color: black; /* Safari */
+    -moz-text-fill-color: black;    /* Firefox */
+    background-color: white !important;
+  }
+  .custom-select {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+    color: black !important; /* Force black text */
+    background-color: white !important;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    -webkit-appearance: none; /* Remove default styling in some browsers */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.custom-select option {
+    color: black !important;
+    background-color: white !important;
+}
+.custom-select,
+.custom-select option {
+    color: black !important;
+    -webkit-text-fill-color: black; /* Safari fix */
+}
+.delete-product-form select.custom-select,
+.delete-product-form select.custom-select option {
+  color: black !important;
+  background-color: white !important;
+}
