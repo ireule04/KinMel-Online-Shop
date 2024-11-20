@@ -55,7 +55,7 @@ const MyOrder = () => {
                   <th scope="col">Quantity</th>
                   <th scope="col">Total Price</th>
                   <th scope="col">Order Date</th>
-                  <th scope="col">Delivery Date</th>
+                  <th scope="col">Delivery Date:</th>
                   <th scope="col">Delivery Status</th>
                   <th scope="col">Delivery Person</th>
                   <th scope="col">Delivery Mobile No</th>
