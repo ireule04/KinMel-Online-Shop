@@ -48,7 +48,7 @@ const MyOrder = () => {
             <table className="table table-hover custom-bg-text text-center">
               <thead className="bg-color table-bordered border-color">
                 <tr>
-                  <th scope="col">Order Id</th>
+                  <th scope="col">Order Id:</th>
                   <th scope="col">Product</th>
                   <th scope="col">Name</th>
                   <th scope="col">Description</th>
