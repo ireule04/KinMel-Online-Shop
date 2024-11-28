@@ -55,7 +55,7 @@ const AllOrders = () => {
                   <th scope="col">Street</th>
                   <th scope="col">City</th>
                   <th scope="col">Pin Code</th>
-                  <th scope="col">Mobile No.</th>
+                  <th scope="col">Mobile No</th>
                   <th scope="col">Order Date</th>
                   <th scope="col">Delivery Date</th>
                   <th scope="col">Delivery Status</th>
