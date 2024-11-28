@@ -60,7 +60,7 @@ const AllOrders = () => {
                   <th scope="col">Delivery Date</th>
                   <th scope="col">Delivery Status</th>
                   <th scope="col">Delivery Person</th>
-                  <th scope="col">Delivery Mobile</th>
+                  <th scope="col">Delivery Mobile NO.</th>
                 </tr>
               </thead>
               <tbody>
